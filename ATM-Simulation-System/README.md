@@ -1,10 +1,10 @@
-🏦 ATM Simulation System (Python)
-📌 Overview
+🏦 *ATM Simulation System (Python)*
+📌 *Overview*
 
 This project is a simple ATM (Automated Teller Machine) Simulation System built using Python and Object-Oriented Programming (OOP) concepts.
 It allows users to create accounts, generate PINs, deposit and withdraw money, check balances, view transaction history, and change their PIN securely.
 
-✨ Features
+✨ *Features*
 
 🔑 PIN Generation & Verification using secure input (getpass module).
 
@@ -33,7 +33,7 @@ OOP Concepts (Encapsulation, Classes & Objects, Methods)
 getpass module → for hiding PIN input
 
 
-📋 Usage Flow
+📋 *Usage Flow*
 
 1. Enter your Account Number (new users will have a new account created).
 
