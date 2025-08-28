@@ -1,10 +1,17 @@
-🏦 *ATM Simulation System (Python)*
-📌 *Overview*
+🏦 ATM Simulation System (Python)
 
-This project is a simple ATM (Automated Teller Machine) Simulation System built using Python and Object-Oriented Programming (OOP) concepts.
+This is a simple ATM (Automated Teller Machine) Simulation System built using Python and Object-Oriented Programming (OOP) concepts.
 It allows users to create accounts, generate PINs, deposit and withdraw money, check balances, view transaction history, and change their PIN securely.
 
-✨ *Features*
+📘 Project Overview
+
+Demonstrates Object-Oriented Programming (OOP) in Python.
+
+User can perform secure banking operations in the simulation.
+
+Emphasis on PIN security (using getpass).
+
+✨ Features
 
 🔑 PIN Generation & Verification using secure input (getpass module).
 
@@ -18,37 +25,48 @@ Minimum balance requirement of ₹3000.
 
 📊 Check Account Balance anytime.
 
-🧾 Transaction History to track deposits & withdrawals.
+📑 Transaction History to track deposits & withdrawals.
 
 🔄 Change PIN securely.
 
-👥 Multiple Account Support → Users can create and use accounts with unique account numbers.
-
 🛠️ Technologies Used
 
-Python 3
+Language: Python 3
 
-OOP Concepts (Encapsulation, Classes & Objects, Methods)
+Concepts: OOP (Classes, Objects, Encapsulation)
 
-getpass module → for hiding PIN input
+Modules: getpass, datetime
+
+🚀 How to Run
+
+Clone this repository:
+
+git clone https://github.com/your-username/ATM-Simulation-System.git
 
 
-📋 *Usage Flow*
+Navigate to project folder:
 
-1. Enter your Account Number (new users will have a new account created).
+cd ATM-Simulation-System
 
-2 .Choose from the menu:
 
- --- 1 → Generate PIN
+Run the program:
 
- --- 2 → Deposit Money
+python atm.py
 
- --- 3 → Withdraw Money
+📌 Example Usage
+Welcome to ATM System
+Enter your PIN: ****
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Transaction History
+5. Change PIN
+6. Exit
 
- --- 4 → Check Balance
+📖 Key Concepts Practiced
 
- --- 5 → View Transaction History
+-- Encapsulation & Secure PIN handling
 
- --- 6 → Change PIN
+-- OOP design with multiple functionalities
 
- --- 7 → Exit
+-- User interaction simulation
